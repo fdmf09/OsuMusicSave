@@ -2,8 +2,6 @@ import os
 import re
 from shutil import copyfile
 
-
-
 ##### FUNCTION DEF #####
 def getSongName(rootdir):
     songNames = []
@@ -38,8 +36,6 @@ def getSongFile(rootdir):
 
 rootdir = input("Enter the path of the osu Songs directory: ")
 destinationDir = input("Enter the path of the folder where you want to save your songs \n(Must be on the same drive as the osu folder): ")
-rootdir = rootdir.replace("\\", "/")
-destinationDir = destinationDir.replace("\\", "/")
 
 nbSongs = getSongName(rootdir)[2]
 for i in range(nbSongs):
