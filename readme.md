@@ -4,7 +4,7 @@ Ce script python permet de sauvegarder ses musiques présentes dans le dossier S
 
 ## How to use ?
 
-1. Download the code or copy the repository
+1. Download the code or copy the repository && unzip
 
 2. Open a terminal and go the folder of the python file
 ```shell
