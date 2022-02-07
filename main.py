@@ -32,7 +32,7 @@ def getSongFile(rootdir):
         elif fullPath == []:
             return("error")
     return(fullPath[0])
-##### FUNCTION DEF #####
+##### END OF FUNCTION DEF #####
 
 rootdir = input("Enter the path of the osu Songs directory: ")
 destinationDir = input("Enter the path of the folder where you want to save your songs \n(Must be on the same drive as the osu folder): ")
